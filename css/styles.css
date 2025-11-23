@@ -152,19 +152,19 @@ button {
 
 /* #region first page */
 .first-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-                
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .container-first-section {
-    max-width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -319,13 +319,8 @@ button {
 
 /* links */
 
-.team-links-block {
-    padding-top: 8px;
-}
-
-
-
 .team-links {
+    padding-top: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
