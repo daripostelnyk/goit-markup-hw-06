@@ -699,13 +699,15 @@ input {
     justify-content: center;
     background-color: #E7E9FC;
     border-radius: 50%;
-    transition: background-color 250ms
-     cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-backdrop:hover,
 .close-backdrop:focus {
     background-color: #404BBF;
+    border: none;
 }
 
 .icon-close {
@@ -745,7 +747,6 @@ input {
 
 .field-wrapper {
     position: relative;
-    margin-bottom: 8px;
 }
 
 .text-field {
@@ -804,8 +805,8 @@ input {
     border-color: #4D5AE5;
 }
 
-.form-field-wrapper {
-    margin-bottom: 16px;
+.form-field-wrapper-checkbox {
+    margin-bottom: 24px;
 }
 
 .check-wrapper {
