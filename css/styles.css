@@ -551,7 +551,7 @@ input {
 
 /* Subscribe */
 
-.Subscribe {
+.subscribe {
  margin-left: auto;
 }
 
@@ -579,6 +579,7 @@ input {
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
+    color: #ffffff;
 
     font-weight: 400;
     font-size: 12px;
@@ -595,10 +596,12 @@ input {
 } 
 
 .footer-email::placeholder {
-    color: #fff;
+    color: #ffffff;
 }
 
 .button-subscribe {
+    min-width: 165px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -628,6 +631,7 @@ input {
 
 .icon-subscribe {
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 
 /* #endregion end of page */
