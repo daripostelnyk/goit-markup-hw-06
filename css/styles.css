@@ -552,7 +552,7 @@ input {
 /* Subscribe */
 
 .subscribe {
- margin-left: auto;
+    margin-left: auto;
 }
 
 .subscribe-text {
@@ -609,7 +609,6 @@ input {
 
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
     height: 40px;
 
     background-color: #4d5ae5;
@@ -631,7 +630,6 @@ input {
 
 .icon-subscribe {
     fill: #FFFFFF;
-    margin-left: 16px;
 }
 
 /* #endregion end of page */
